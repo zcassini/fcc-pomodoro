@@ -1,3 +1,3 @@
-require('./stylus/style.styl')
+require('./stylus/style.sss')
 require('./js/main.js')
 
