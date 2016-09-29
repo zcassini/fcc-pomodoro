@@ -1,5 +1,24 @@
 include includes/header
 
 body
-    h1.z My Site
-    p Welcome to my website. 
+  h1  Pomodoro Timer
+  div
+    label Break Length
+    div
+      button#breakInc +
+      label#breakLabel 5
+      button#breakDec -
+   
+  div
+    label Session Length
+    div
+      button#sessionInc +
+      label#sessionLabel 25 
+      button#sessionDec -
+
+  div
+    h3 Session
+    h3#timerLabel --:--
+    button#go Go!
+    //- button#pause Pause
+    
